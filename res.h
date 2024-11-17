@@ -1,2 +1,2 @@
-#define SERVICE_NAME "aaaService"           // can be changed
-#define SERVICE_PATH "./bin/aaaService.exe" // that too
+#define SERVICE_NAME "aaaService"                                                  // can be changed
+#define SERVICE_PATH "C:/Users/user/Desktop/vsc/SPtest/sro_w12/bin/aaaService.exe" //".bin/aaaService.exe" // that too

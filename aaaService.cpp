@@ -1,6 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "res.h"
+
 using namespace std;
 
 SC_HANDLE hService, hServiceControlManager;
@@ -206,8 +207,7 @@ int main(int argc, TCHAR *argv[])
 
     if (StartServiceCtrlDispatcher(ServiceTable) == FALSE)
     {
-        return GetLastError();
+        return -1;
     }
-
     return 0;
 }
